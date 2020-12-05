@@ -5,7 +5,7 @@
 - Do user stories
 - Create contract
 - Make wireframes.
-- 
+-
 
 ## Big questions
 - Should there be many workout rooms or one? One
@@ -34,7 +34,7 @@
 ## Routes
 - Post Login
     - `{ "email": string, "password": string }`
-    - `{ "error": null | string }`
+    - `{ "error": null | string, jwt: null | string }`
 - Post account
     - `{ "name": string }`
     - `{ "email": string, "password": string }`
