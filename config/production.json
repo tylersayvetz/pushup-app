@@ -1,0 +1,15 @@
+{
+    "db": {
+        "users": {
+            "filename": "./db/users.db", "autoload": true
+        },
+        "exercises": {
+            "filename": "./db/exercises.db", "autoload": true
+        },
+        "rooms": {
+            "filename": "./db/rooms.db", "autoload": true
+        }
+    }
+
+    
+}

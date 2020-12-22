@@ -12,12 +12,15 @@
         "target": "es2017",
         "outDir": "dist/",
         "rootDir": "src/",
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
     },
     "include": [
-        "src/**/*"
+        "./src/**/*"
     ],
     "exclude": [
-        "node_modules•"
+        "node_modules",
     ]
 }
